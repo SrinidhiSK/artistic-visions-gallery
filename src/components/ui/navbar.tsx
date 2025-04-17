@@ -9,7 +9,7 @@ const Navbar = () => {
   const toggleMenu = () => setIsMenuOpen(!isMenuOpen);
   
   return (
-    <header className="w-full bg-white bg-opacity-95 backdrop-blur-sm fixed top-0 z-50 shadow-sm">
+    <header className="w-full bg-neutral-400 bg-opacity-95 backdrop-blur-sm fixed top-0 z-50 shadow-sm">
       <div className="container mx-auto px-4 md:px-6 py-4 flex items-center justify-between">
         <Link to="/" className="text-xl md:text-2xl font-serif font-semibold">
           Artistic Visions
@@ -28,8 +28,8 @@ const Navbar = () => {
         <nav className="hidden md:flex items-center space-x-8">
           <NavLink to="/">Home</NavLink>
           <NavLink to="/gallery">Gallery</NavLink>
-          <NavLink to="/about">About</NavLink>
-          <NavLink to="/contact">Contact</NavLink>
+          {/*<NavLink to="/about">About</NavLink>*/}
+          {/*<NavLink to="/contact">Contact</NavLink>*/}
         </nav>
         
         {/* Mobile Navigation */}
@@ -38,8 +38,8 @@ const Navbar = () => {
             <nav className="flex flex-col py-4">
               <MobileNavLink to="/" onClick={toggleMenu}>Home</MobileNavLink>
               <MobileNavLink to="/gallery" onClick={toggleMenu}>Gallery</MobileNavLink>
-              <MobileNavLink to="/about" onClick={toggleMenu}>About</MobileNavLink>
-              <MobileNavLink to="/contact" onClick={toggleMenu}>Contact</MobileNavLink>
+              {/*<MobileNavLink to="/about" onClick={toggleMenu}>About</MobileNavLink>*/}
+              {/*<MobileNavLink to="/contact" onClick={toggleMenu}>Contact</MobileNavLink>*/}
             </nav>
           </div>
         )}
@@ -51,7 +51,7 @@ const Navbar = () => {
 const NavLink = ({ to, children }) => (
   <Link 
     to={to} 
-    className="text-gray-700 hover:text-black transition-colors duration-300 font-medium"
+    className="text-neutral-200 hover:text-black transition-colors duration-300 font-medium"
   >
     {children}
   </Link>

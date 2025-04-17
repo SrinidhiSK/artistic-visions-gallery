@@ -3,7 +3,7 @@ export const artworks = [
   {
     id: "art-001",
     title: "Ethereal Dreams",
-    image: "https://images.unsplash.com/photo-1579783902614-a3fb3927b6a5?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
+    image: "https://i.postimg.cc/HxWpVHc7/IMG20250405162356.jpg",
     year: "2023",
     medium: "Oil on Canvas",
     dimensions: "36\" × 48\"",
