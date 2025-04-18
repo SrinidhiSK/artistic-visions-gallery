@@ -6,6 +6,8 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Index from "./pages/Index";
 import NotFound from "./pages/NotFound";
 import GalleryPage from "./pages/GalleryPage";
+import Charcoal from "./pages/Charcoal.tsx";
+import { Link } from "react-router-dom";
 import AboutPage from "./pages/AboutPage";
 import ContactPage from "./pages/ContactPage";
 
@@ -20,6 +22,7 @@ const App = () => (
         <Routes>
           <Route path="/" element={<Index />} />
           <Route path="/gallery" element={<GalleryPage />} />
+          <Route path="/charcoal" element={<Charcoal />} />
           {/*<Route path="/about" element={<AboutPage />} />*/}
           {/*<Route path="/contact" element={<ContactPage />} />*/}
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}

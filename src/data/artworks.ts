@@ -8,7 +8,8 @@ export const artworks = [
     medium: "Oil on Canvas",
     dimensions: "36\" × 48\"",
     description: "An exploration of dreamscapes and the subconscious mind through layered colors and organic forms.",
-    featured: true
+    featured: true,
+    type: "pastel",
   },
   {
     id: "art-002",
@@ -17,7 +18,8 @@ export const artworks = [
     year: "2022",
     medium: "Acrylic on Panel",
     dimensions: "24\" × 30\"",
-    description: "A study of city architecture and its reflection in water, playing with light and perspective."
+    description: "A study of city architecture and its reflection in water, playing with light and perspective.",
+    type: "charcoal",
   },
   {
     id: "art-003",
@@ -86,6 +88,14 @@ export const artworks = [
 
 export const getFeaturedArtwork = () => {
   return artworks.find(art => art.featured) || artworks[0];
+};
+
+export const getPastelArtwork = () => {
+  return artworks.every(art => art.type == "pastel");
+};
+
+export const getCharcoalArtwork = () => {
+  return artworks.every(art => art.type == "charcoal");
 };
 
 export const getRecentArtworks = (count = 3) => {

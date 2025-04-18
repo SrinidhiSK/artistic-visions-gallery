@@ -9,9 +9,9 @@ const Navbar = () => {
   const toggleMenu = () => setIsMenuOpen(!isMenuOpen);
   
   return (
-    <header className="w-full bg-zinc-500 bg-opacity-95 backdrop-blur-sm fixed top-0 z-50 shadow-sm">
+    <header className="w-full bg-neutral-700 bg-opacity-95 backdrop-blur-sm fixed top-0 z-50 shadow-sm">
       <div className="container mx-auto px-4 md:px-6 py-4 flex items-center justify-between">
-        <Link to="/" className="text-xl md:text-2xl font-serif font-semibold text-black">
+        <Link to="/" className="text-xl md:text-2xl font-serif font-semibold text-white">
           Artistic Visions
         </Link>
         
