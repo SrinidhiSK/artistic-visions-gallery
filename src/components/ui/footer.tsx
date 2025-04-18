@@ -1,10 +1,13 @@
 
-import { Heart, Mail, Instagram } from "lucide-react";
+import { Mail, Instagram } from "lucide-react";
 import { Link } from "react-router-dom";
+import { Heart } from "lucide-react";
+import { useNavigate } from "react-router-dom";
 
 const Footer = () => {
 const Footer = () => {
   const currentYear = new Date().getFullYear();}
+  const navigate = useNavigate();
 
   return (
     <footer className="w-full bg-neutral-900 py-10 mt-20">
@@ -63,9 +66,19 @@ const Footer = () => {
           </div>
         </div>
 
+        {/*<div className="text-center mt-8 text-sm text-gray-400 flex items-center justify-center">*/}
+        {/*  <span>Made with</span>*/}
+        {/*  <Heart size={14} className="mx-1" />*/}
+        {/*  <span>and creativity</span>*/}
+        {/*</div>*/}
+
         <div className="text-center mt-8 text-sm text-gray-400 flex items-center justify-center">
           <span>Made with</span>
-          <Heart size={14} className="mx-1" />
+          <Heart
+              size={16}
+              className="mx-1 text-red-500 cursor-pointer hover:scale-110 transition"
+              onClick={() => navigate("/Prioritized/")}
+          />
           <span>and creativity</span>
         </div>
 

@@ -11,7 +11,7 @@ const Charcoal = () => {
   }, []);
 
   return (
-      <div className="min-h-screen flex flex-col">
+      <div className="min-h-screen bg-gray-400 flex flex-col">
         <Navbar />
 
         <main className="flex-grow pt-16 mt-8">

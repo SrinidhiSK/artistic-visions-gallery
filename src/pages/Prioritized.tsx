@@ -1,5 +1,5 @@
 import ArtworkGrid from "@/components/gallery/ArtworkGrid.tsx";
-import {artworks, getCharcoalArtwork, getPastelArtwork,getPrioritizedArtwork} from "@/data/artworks.ts";
+import {artworks, getCharcoalArtwork, getPastelArtwork, getPrioritizedArtwork} from "@/data/artworks.ts";
 import React, {useEffect} from "react";
 import Navbar from "@/components/ui/navbar.tsx";
 import {Link} from "react-router-dom";
@@ -11,7 +11,7 @@ const Prioritized = () => {
   }, []);
 
   return (
-      <div className="min-h-screen flex flex-col">
+      <div className="min-h-screen bg-gray-300 flex flex-col">
         <Navbar />
 
         <main className="flex-grow pt-16 mt-8">
@@ -23,14 +23,20 @@ const Prioritized = () => {
               </p>
               <div className="mt-4 h-1 w-16 bg-black mx-auto"></div>
             </div>
-
-              <br/>
-              <br/>
-            <div className="w-full bg-gray-200 py-12 rounded-xl p-6">
-              <div className="max-w-6xl mx-auto px-4">
+            {/*<div className="mb-12 ">*/}
+            {/*  <br/>*/}
+            {/*  <br/>*/}
+            {/*  <ArtworkGrid artworks={getCharcoalArtwork()} columns={3} />*/}
+            {/*</div>*/}
+            <br/>
+            <br/>
+            <div className="mb-12">
+            {/*<div className="w-full bg-gray-200 py-12 rounded-xl p-6">*/}
+            {/*  <div className="max-w-6xl mx-auto px-4">*/}
                 <ArtworkGrid artworks={getPrioritizedArtwork()} columns={3} />
-              </div>
             </div>
+            {/*  </div>*/}
+            {/*</div>*/}
           </section>
         </main>
 
@@ -38,6 +44,7 @@ const Prioritized = () => {
       </div>
   );
 };
+
 
 export default Prioritized;
 

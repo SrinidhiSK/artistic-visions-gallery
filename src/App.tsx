@@ -11,6 +11,7 @@ import { Link } from "react-router-dom";
 import AboutPage from "./pages/AboutPage";
 import ContactPage from "./pages/ContactPage";
 import {Package} from "lucide-react";
+import { useNavigate } from "react-router-dom";
 import Pastel from "@/pages/Pastel.tsx";
 import Prioritized from "@/pages/Prioritized.tsx";
 

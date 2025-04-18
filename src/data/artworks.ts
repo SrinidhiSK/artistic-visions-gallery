@@ -54,10 +54,10 @@ export const artworks = [
   {
     id: "art-006",
     title: "Ocean Memories",
-    image: "https://images.unsplash.com/photo-1580136579312-94651dfd596d?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
+    image: "https://media-hosting.imagekit.io/853aa971fb4b4f81/AT%20WORK.png?Expires=1839587401&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=JJ8zpmfA1uNK3q5KA5tAkjcAZRhQd~88ESXznp1qffMf39goj9vlcGLvwsvh0FmELeRrFYQT-l2ahrBTBE20yB9Gw7wn1bU~-3lI-F2tLQJi2afDznwvn4XsjnCdItTJKd8T-lCI7RTONMqAEFjBroUrilvKgPcQsmbrNar2ZA25IJJeJxxA90pDE6m9DXlBmVATq6ZKqa5yTu7HPqaIPWUCGvtHUP05LBG-jABkHA5MLB4sLxY4SDb1eHJU5Uv-sjin7gb006E1EaXHrNsYA3FcOFU5LYE9Irj7UnfxsNCjPhSSmPFdLEvs9x0Cu0wL8xmP1VaUF~yWmoH77hQH9g__",
     year: "2020",
     medium: "Oil on Canvas",
-    dimensions: "30\" × 40\"",
+    dimensions: "40\" × 60\"",
     description: "An impressionistic seascape capturing the movement and emotion of ocean waves.",
     type: "pastel",
   },
@@ -69,12 +69,12 @@ export const artworks = [
     medium: "Mixed Media Collage",
     dimensions: "20\" × 26\"",
     description: "A collage work exploring how memories and experiences shape our perception of reality.",
-    type: "charcoal",
+    type: "prioritized",
   },
   {
     id: "art-008",
     title: "Inner Light",
-    image: "https://images.unsplash.com/photo-1541961017774-22349e4a1262?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
+    image: "https://media-hosting.imagekit.io/853aa971fb4b4f81/AT%20WORK.png?Expires=1839587401&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=JJ8zpmfA1uNK3q5KA5tAkjcAZRhQd~88ESXznp1qffMf39goj9vlcGLvwsvh0FmELeRrFYQT-l2ahrBTBE20yB9Gw7wn1bU~-3lI-F2tLQJi2afDznwvn4XsjnCdItTJKd8T-lCI7RTONMqAEFjBroUrilvKgPcQsmbrNar2ZA25IJJeJxxA90pDE6m9DXlBmVATq6ZKqa5yTu7HPqaIPWUCGvtHUP05LBG-jABkHA5MLB4sLxY4SDb1eHJU5Uv-sjin7gb006E1EaXHrNsYA3FcOFU5LYE9Irj7UnfxsNCjPhSSmPFdLEvs9x0Cu0wL8xmP1VaUF~yWmoH77hQH9g__",
     year: "2019",
     medium: "Acrylic and Gold Leaf",
     dimensions: "24\" × 36\"",
@@ -108,7 +108,6 @@ export const getCharcoalArtwork = () => {
 export const getRecentArtworks = (count = 3) => {
   return artworks.slice(0, count);
 };
-
 export const getPrioritizedArtwork = () => {
-  return artworks.filter(art => art.type == "prioritized ");
+  return artworks.filter(art => art.type == "prioritized");
 };

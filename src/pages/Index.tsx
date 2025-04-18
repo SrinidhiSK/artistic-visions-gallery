@@ -39,7 +39,7 @@ const Index = () => {
         {/*  <ArtworkGrid artworks={recentArtworks} columns={3} />*/}
         {/*</section>*/}
 
-        <section className="bg-gray-50 py-20">
+        <section className="bg-gray-300 py-20">
           {/*<div className="container mx-auto px-4">*/}
           {/*  <div className="max-w-2xl mx-auto text-center">*/}
           {/*    <h2 className="font-serif text-3xl font-semibold text-gray-900">About My Art</h2>*/}
@@ -65,21 +65,21 @@ const Index = () => {
             </div>
           </div>
         </section>
-        <section className="py-20 container mx-auto px-4">
-          <div className="max-w-xl mx-auto text-center">
-            {/*<h2 className="font-serif text-3xl font-semibold text-gray-900">SRINIDHI S.K</h2>*/}
-            {/*<p className="mt-4 text-gray-600">*/}
-            {/*  "Grateful for the moments you spent with my art "*/}
-            {/*   Thank you for letting my colors speak to you.*/}
-            {/*</p>*/}
-            {/*<Link */}
-            {/*  to="/contact"*/}
-            {/*  className="mt-6 inline-block px-6 py-3 bg-black text-white rounded-md hover:bg-gray-800 transition-colors"*/}
-            {/*>*/}
-            {/*  Contact Me*/}
-            {/*</Link>*/}
-          </div>
-        </section>
+        {/*<section className="py-20 container mx-auto px-4">*/}
+        {/*  <div className="max-w-xl mx-auto text-center">*/}
+        {/*    /!*<h2 className="font-serif text-3xl font-semibold text-gray-900">SRINIDHI S.K</h2>*!/*/}
+        {/*    /!*<p className="mt-4 text-gray-600">*!/*/}
+        {/*    /!*  "Grateful for the moments you spent with my art "*!/*/}
+        {/*    /!*   Thank you for letting my colors speak to you.*!/*/}
+        {/*    /!*</p>*!/*/}
+        {/*    /!*<Link *!/*/}
+        {/*    /!*  to="/contact"*!/*/}
+        {/*    /!*  className="mt-6 inline-block px-6 py-3 bg-black text-white rounded-md hover:bg-gray-800 transition-colors"*!/*/}
+        {/*    /!*>*!/*/}
+        {/*    /!*  Contact Me*!/*/}
+        {/*    /!*</Link>*!/*/}
+        {/*  </div>*/}
+        {/*</section>*/}
       </main>
 
       <Footer/>
