@@ -10,6 +10,8 @@ import Charcoal from "./pages/Charcoal.tsx";
 import { Link } from "react-router-dom";
 import AboutPage from "./pages/AboutPage";
 import ContactPage from "./pages/ContactPage";
+import {Package} from "lucide-react";
+import Pastel from "@/pages/Pastel.tsx";
 
 const queryClient = new QueryClient();
 
@@ -21,8 +23,9 @@ const App = () => (
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Index />} />
-          <Route path="/gallery" element={<GalleryPage />} />
+          {/*<Route path="/gallery" element={<GalleryPage />} />*/}
           <Route path="/charcoal" element={<Charcoal />} />
+          <Route path="/pastels" element={<Pastel/>} />
           {/*<Route path="/about" element={<AboutPage />} />*/}
           {/*<Route path="/contact" element={<ContactPage />} />*/}
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}

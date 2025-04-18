@@ -28,7 +28,8 @@ export const artworks = [
     year: "2022",
     medium: "Mixed Media",
     dimensions: "18\" × 24\"",
-    description: "An abstract composition exploring emotional states through variations of blue tones and textures."
+    description: "An abstract composition exploring emotional states through variations of blue tones and textures.",
+    type: "charcoal",
   },
   {
     id: "art-004",
@@ -37,7 +38,8 @@ export const artworks = [
     year: "2021",
     medium: "Watercolor",
     dimensions: "16\" × 20\"",
-    description: "A landscape inspired by autumn foliage and the changing seasons of New England."
+    description: "A landscape inspired by autumn foliage and the changing seasons of New England.",
+    type: "pastel",
   },
   {
     id: "art-005",
@@ -46,7 +48,8 @@ export const artworks = [
     year: "2021",
     medium: "Digital",
     dimensions: "24\" × 24\"",
-    description: "An exploration of balance through geometric shapes and complementary colors."
+    description: "An exploration of balance through geometric shapes and complementary colors.",
+    type: "charcoal",
   },
   {
     id: "art-006",
@@ -55,7 +58,8 @@ export const artworks = [
     year: "2020",
     medium: "Oil on Canvas",
     dimensions: "30\" × 40\"",
-    description: "An impressionistic seascape capturing the movement and emotion of ocean waves."
+    description: "An impressionistic seascape capturing the movement and emotion of ocean waves.",
+    type: "pastel",
   },
   {
     id: "art-007",
@@ -64,7 +68,8 @@ export const artworks = [
     year: "2020",
     medium: "Mixed Media Collage",
     dimensions: "20\" × 26\"",
-    description: "A collage work exploring how memories and experiences shape our perception of reality."
+    description: "A collage work exploring how memories and experiences shape our perception of reality.",
+    type: "charcoal",
   },
   {
     id: "art-008",
@@ -73,7 +78,8 @@ export const artworks = [
     year: "2019",
     medium: "Acrylic and Gold Leaf",
     dimensions: "24\" × 36\"",
-    description: "An abstract piece exploring spirituality and inner illumination through contrast and gilding."
+    description: "An abstract piece exploring spirituality and inner illumination through contrast and gilding.",
+    type: "charcoal",
   },
   {
     id: "art-009",
@@ -82,7 +88,8 @@ export const artworks = [
     year: "2019",
     medium: "Charcoal and Pastel",
     dimensions: "18\" × 24\"",
-    description: "A study of architectural forms and their inherent rhythms and patterns."
+    description: "A study of architectural forms and their inherent rhythms and patterns.",
+    type: "pastel",
   }
 ];
 
@@ -91,11 +98,11 @@ export const getFeaturedArtwork = () => {
 };
 
 export const getPastelArtwork = () => {
-  return artworks.every(art => art.type == "pastel");
+  return artworks.filter(art => art.type == "pastel");
 };
 
 export const getCharcoalArtwork = () => {
-  return artworks.every(art => art.type == "charcoal");
+  return artworks.filter(art => art.type == "charcoal");
 };
 
 export const getRecentArtworks = (count = 3) => {
