@@ -11,6 +11,7 @@ interface HeroProps {
   };
 }
 
+
 const Hero = ({ featuredArtwork }: HeroProps) => {
   return (
     <section className="relative min-h-screen bg-gradient-to-b from-gray-300 to-gray-100 flex items-center py-16">
