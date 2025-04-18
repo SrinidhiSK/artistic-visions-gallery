@@ -79,7 +79,7 @@ export const artworks = [
     medium: "Acrylic and Gold Leaf",
     dimensions: "24\" × 36\"",
     description: "An abstract piece exploring spirituality and inner illumination through contrast and gilding.",
-    type: "charcoal",
+    type: "prioritized",
   },
   {
     id: "art-009",
@@ -107,4 +107,8 @@ export const getCharcoalArtwork = () => {
 
 export const getRecentArtworks = (count = 3) => {
   return artworks.slice(0, count);
+};
+
+export const getPrioritizedArtwork = () => {
+  return artworks.filter(art => art.type == "prioritized ");
 };

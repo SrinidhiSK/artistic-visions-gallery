@@ -12,6 +12,7 @@ import AboutPage from "./pages/AboutPage";
 import ContactPage from "./pages/ContactPage";
 import {Package} from "lucide-react";
 import Pastel from "@/pages/Pastel.tsx";
+import Prioritized from "@/pages/Prioritized.tsx";
 
 const queryClient = new QueryClient();
 
@@ -26,6 +27,8 @@ const App = () => (
           {/*<Route path="/gallery" element={<GalleryPage />} />*/}
           <Route path="/charcoal" element={<Charcoal />} />
           <Route path="/pastels" element={<Pastel/>} />
+          <Route path="/prioritized" element={<Prioritized/>} />
+
           {/*<Route path="/about" element={<AboutPage />} />*/}
           {/*<Route path="/contact" element={<ContactPage />} />*/}
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}

@@ -73,6 +73,7 @@ const GalleryPage = () => {
               Pastels
             </Link>
           </div>
+
         </section>
       </main>
       
