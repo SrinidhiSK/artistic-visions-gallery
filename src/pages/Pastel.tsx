@@ -17,8 +17,8 @@ const Pastel = () => {
         <main className="flex-grow pt-16 mt-8">
           <section className="container mx-auto px-4 py-12">
             <div className="max-w-3xl mx-auto text-center mb-16">
-              <h1 className="font-serif text-4xl md:text-5xl font-semibold text-gray-900">Gallery</h1>
-              <p className="mt-4 text-lg text-gray-600">
+              <h1 className="font-serif text-4xl md:text-5xl font-semibold text-white">Gallery</h1>
+              <p className="mt-4 text-lg text-white">
                   Explore my complete collection of original artworks
               </p>
               <div className="mt-4 h-1 w-16 bg-black mx-auto"></div>
@@ -48,11 +48,14 @@ const Pastel = () => {
               {/*</div>*/}
                   <br/>
                   <br/>
-              <div className="w-full bg-gray-200 py-12 rounded-xl p-6">
-                  <div className="max-w-6xl mx-auto px-4">
-                      <ArtworkGrid artworks={getPastelArtwork()} columns={3} />
-                  </div>
+              <div className="bg-white/100 backdrop-blur-100xl rounded-2xl p-6 shadow-2xl border border-white/20">
+                  <ArtworkGrid artworks={getCharcoalArtwork()} columns={3} />
               </div>
+              {/*<div className="w-full bg-gray-200 py-12 rounded-xl p-6">*/}
+              {/*    <div className="max-w-6xl mx-auto px-4">*/}
+              {/*        <ArtworkGrid artworks={getPastelArtwork()} columns={3} />*/}
+              {/*    </div>*/}
+              {/*</div>*/}
 
           </section>
         </main>

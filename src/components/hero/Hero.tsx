@@ -14,7 +14,7 @@ interface HeroProps {
 
 const Hero = ({ featuredArtwork }: HeroProps) => {
   return (
-    <section className="relative min-h-screen bg-gradient-to-b from-gray-300 to-gray-100 flex items-center py-16">
+    <section className="relative min-h-screen bg-gradient-to-b from-white to-gray-100 flex items-center py-16">
       <div className="container mx-auto px-4 md:px-6 grid md:grid-cols-2 gap-12 md:gap-16 items-center">
         <div className="order-2 md:order-1 animate-fade-in ">
 

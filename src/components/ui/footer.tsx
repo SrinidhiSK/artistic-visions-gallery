@@ -10,7 +10,7 @@ const Footer = () => {
   const navigate = useNavigate();
 
   return (
-    <footer className="w-full bg-neutral-900 py-10 mt-20">
+    <footer className="w-full bg-neutral-900 py-10 mt-0">
       <div className="container mx-auto px-4">
         <div className="flex flex-col md:flex-row justify-between items-center">
           {/*<div className="mb-6 md:mb-0">*/}
