@@ -9,18 +9,32 @@ const Footer = () => {
     <footer className="w-full bg-neutral-900 py-10 mt-20">
       <div className="container mx-auto px-4">
         <div className="flex flex-col md:flex-row justify-between items-center">
-          <div className="mb-6 md:mb-0">
-            {/*<Link to="/" className="text-xl font-serif font-semibold">*/}
-            {/*<p className="text-sm text-gray-300 mt-1">*/}
-            {/*  SRINIDHI S.K*/}
-            {/*</p>*/}
-            {/*</Link>*/}
+          {/*<div className="mb-6 md:mb-0">*/}
+          {/*  /!*<Link to="/" className="text-xl font-serif font-semibold">*!/*/}
+          {/*  /!*<p className="text-sm text-gray-300 mt-1">*!/*/}
+          {/*  /!*  SRINIDHI S.K*!/*/}
+          {/*  /!*</p>*!/*/}
+          {/*  /!*</Link>*!/*/}
+          {/*  <p className="text-sm text-gray-300 mt-1">*/}
+          {/*    "Grateful for the moments you spent with my art — thank you for wandering through my world of hues and lines"*/}
+          {/*  </p>*/}
+          {/*  <br/>*/}
+          {/*    <p className="absolute top-2 right-4 text-xl md:text-2xl font-serif font-semibold text-gray-100">*/}
+          {/*      -SRINIDHI S.K*/}
+          {/*    </p>*/}
+          {/*  */}
+
+          {/*  /!*<p className="text-xl md:text-2xl font-serif font-semibold text-gray-100 mr-50">*!/*/}
+          {/*  /!*      -SRINIDHI S.K*!/*/}
+          {/*  /!*</p>*!/*/}
+          {/*</div>*/}
+          <div className="relative mb-6 md:mb-0">
             <p className="text-sm text-gray-300 mt-1">
               "Grateful for the moments you spent with my art — thank you for wandering through my world of hues and lines"
             </p>
-            <br/>
-            <p className="text-sm text-gray-300 mt-1">
-                  -SRINIDHI S.K
+            <br />
+            <p className="absolute top-8 right-2 text-xl md:text-2xl font-serif font-semibold text-gray-100">
+              -SRINIDHI S.K
             </p>
           </div>
           
@@ -62,7 +76,7 @@ const SocialLink = ({ href, icon: Icon, label }) => (
   <a 
     href={href}
     aria-label={label}
-    className="text-gray-600 hover:text-black transition-colors duration-300"
+    className="text-gray-400 hover:text-white transition-colors duration-300"
   >
     <Icon size={20} />
   </a>

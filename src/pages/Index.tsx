@@ -40,29 +40,31 @@ const Index = () => {
         {/*</section>*/}
 
         <section className="bg-gray-50 py-20">
-          <div className="container mx-auto px-4">
-            <div className="max-w-2xl mx-auto text-center">
-              <h2 className="font-serif text-3xl font-semibold text-gray-900">About My Art</h2>
-              <p className="mt-6 text-gray-700 leading-relaxed">
+          {/*<div className="container mx-auto px-4">*/}
+          {/*  <div className="max-w-2xl mx-auto text-center">*/}
+          {/*    <h2 className="font-serif text-3xl font-semibold text-gray-900">About My Art</h2>*/}
+          {/*    <p className="mt-6 text-gray-700 leading-relaxed">*/}
+          {/*      My work explores the boundary between abstraction and representation, often drawing*/}
+          {/*      inspiration from natural forms, emotional states, and architectural elements. Through*/}
+          {/*      a diverse range of media and techniques.*/}
+          {/*    </p>*/}
+          <div className="relative w-full py-12">
+            {/* Full-width box behind with rounded edges and auto height */}
+            <div className="absolute inset-0 h-auto bg-neutral-200 z-0 rounded-xl w-[55%] mx-auto"></div>
+
+            {/* Content on top */}
+            <div className="relative max-w-4xl mx-auto text-center z-10 px-4">
+              <h2 className="font-serif text-4xl font-bold text-black mb-4">
+                About My Art
+              </h2>
+              <p className="text-neutral-800 text-lg leading-relaxed">
                 My work explores the boundary between abstraction and representation, often drawing
                 inspiration from natural forms, emotional states, and architectural elements. Through
                 a diverse range of media and techniques.
               </p>
-              {/*<Link */}
-              {/*  to="/about"*/}
-              {/*  className="mt-8 inline-block px-6 py-3 border border-gray-300 rounded-md hover:bg-gray-100 transition-colors"*/}
-              {/*>*/}
-              {/*Learn More About the Artist*/}
-              {/*</Link>*/}
             </div>
           </div>
         </section>
-        <div className="block-background">
-        </div>
-        <div className="block-background_2">
-        </div>
-
-
         <section className="py-20 container mx-auto px-4">
           <div className="max-w-xl mx-auto text-center">
             {/*<h2 className="font-serif text-3xl font-semibold text-gray-900">SRINIDHI S.K</h2>*/}
