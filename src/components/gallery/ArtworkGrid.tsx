@@ -12,5 +12,4 @@ const ArtworkGrid = ({ artworks, columns = 3 }: { artworks: ArtworkProps[], colu
     </div>
   );
 };
-
 export default ArtworkGrid;

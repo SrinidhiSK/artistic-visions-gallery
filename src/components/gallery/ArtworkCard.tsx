@@ -6,11 +6,13 @@ export type ArtworkProps = {
   id: string;
   title: string;
   image: string;
+  // year: string;
   // medium: string;
   dimensions?: string;
   // description?: string;
   featured?: boolean;
-  type: string;
+  type?: string;
+  aspectRatio?: string;
 };
 
 const ArtworkCard = ({ artwork }: { artwork: ArtworkProps }) => {
@@ -22,8 +24,9 @@ const ArtworkCard = ({ artwork }: { artwork: ArtworkProps }) => {
       onMouseEnter={() => setIsHovered(true)}
       onMouseLeave={() => setIsHovered(false)}
     >
-      <div className="aspect-[3/4] bg-gray-100 overflow-hidden">
-        <img 
+      {/*<div className="aspect-[3/4] bg-gray-100 overflow-hidden">*/}
+      <div className={`rounded-lg overflow-hidden  ${artwork.aspectRatio === "4/3" ? "aspect-[4/3]" : "aspect-[3/4]"}`}>
+        <img
           src={artwork.image} 
           alt={artwork.title}
           className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"

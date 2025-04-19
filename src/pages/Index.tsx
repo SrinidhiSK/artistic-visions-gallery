@@ -21,7 +21,12 @@ const Index = () => {
       <Navbar />
 
       <main className="flex-grow pt-16">
-        <Hero featuredArtwork={featuredArtwork}/>
+        <Hero featuredArtwork={{
+          title: featuredArtwork.title,
+          image: featuredArtwork.image,
+          year: featuredArtwork.year || "",
+          medium: featuredArtwork.medium || ""
+        }}/>
 
         {/*<section className="container mx-auto px-4 py-20">*/}
         {/*  <div className="flex flex-col md:flex-row justify-between items-end mb-12">*/}

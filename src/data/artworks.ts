@@ -3,7 +3,7 @@ export const artworks = [
   {
     id: "art-000",
     title: "Ethereal Dreams",
-    image: "https://i.postimg.cc/HxWpVHc7/IMG20250405162356.jpg",
+    image: "https://media-hosting.imagekit.io/5d59bb6905324234/AT%20WORK%20(16).png?Expires=1839663246&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=dJ-uiEY8O5djMqZIblhWYRb9vnNT66doYvsPH7UT19avyc23F1JhcDBOkUPdRRkRZ2-vCVhxPF6qhU3hJCA22pcw-r~A7LIJyuo6nOeMhIDFFc~OW0JWACsuVKDMWqXguSZj7v7rbQCOVcng8bqy1q-r7g4BxxQMeq-8CIONYbv3dUBNkrktr9tfIJkFS7w4R9dIlPtTSVQCSo~~LK8ELedNKfpuDx762qBKiZHykoyVTMQ2vx-Ue2skLkFTPWrMyoSP6vS9Dbh-NxgkgpEzlr-lL2hkh0TRrw4P8UP6TDiK5qUPRRDNPWtgjd9kshywVKg73nB7~2VoCUpTOb-1gQ__",
     year: "2023",
     medium: "Oil on Canvas",
     dimensions: "36\" × 48\"",
@@ -25,10 +25,10 @@ export const artworks = [
     id: "art-002",
     title: "Serenity in Blue",
     image: "https://media-hosting.imagekit.io/f91b36e440684ace/AT%20WORK%20(1).png?Expires=1839594532&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=s3yzoyqUWISQ5Ng0TL60u4zh-UAsJuhC2xBxN0GA6KUkXo0eWMMB9lhvTo7iJSiZN1hMY5L01G~nQNAtyNDsJumRk4WVCF1HqvdqNrB2pCnsmHyiwif3PZoaIGlQGjsbPTOlMQsmny6MKKVqtGvv9-XHTcvXUsF-D2QLipjs97x5VDV5l0kbY5zunuY8qUKomgr7BGhRmHd1tPAKgSzvQqQQQDjJztP8uG7IuF1uHTmMnb~ymzpYL1LWC9hrdEXnYBq3RMWJM2T7ZejSiZUviI98GM4pWGeUYH04XvGXpfEskL2u0ZSFQAD~awIHkg8hiav8HlLcheu4UyZip2QETw__",
-    year: "2022",
-    medium: "Mixed Media",
+    // year: "2022",
+    // medium: "Mixed Media",
     dimensions: "18\" × 24\"",
-    description: "An abstract composition exploring emotional states through variations of blue tones and textures.",
+    // description: "An abstract composition exploring emotional states through variations of blue tones and textures.",
     type: "charcoal",
   },
 
@@ -167,16 +167,16 @@ export const artworks = [
 
 
 
-  {
-    id: "art-006",
-    title: "Autumn Whispers",
-    image: "https://media-hosting.imagekit.io/5d59bb6905324234/AT%20WORK%20(16).png?Expires=1839663246&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=dJ-uiEY8O5djMqZIblhWYRb9vnNT66doYvsPH7UT19avyc23F1JhcDBOkUPdRRkRZ2-vCVhxPF6qhU3hJCA22pcw-r~A7LIJyuo6nOeMhIDFFc~OW0JWACsuVKDMWqXguSZj7v7rbQCOVcng8bqy1q-r7g4BxxQMeq-8CIONYbv3dUBNkrktr9tfIJkFS7w4R9dIlPtTSVQCSo~~LK8ELedNKfpuDx762qBKiZHykoyVTMQ2vx-Ue2skLkFTPWrMyoSP6vS9Dbh-NxgkgpEzlr-lL2hkh0TRrw4P8UP6TDiK5qUPRRDNPWtgjd9kshywVKg73nB7~2VoCUpTOb-1gQ__",
-    // year: "2021",
-    // medium: "Watercolor",
-    dimensions: "16\" × 20\"",
-    // description: "A landscape inspired by autumn foliage and the changing seasons of New England.",
-    type: "pastel",
-  },
+  // {
+  //   id: "art-006",
+  //   title: "Autumn Whispers",
+  //   image: "https://media-hosting.imagekit.io/5d59bb6905324234/AT%20WORK%20(16).png?Expires=1839663246&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=dJ-uiEY8O5djMqZIblhWYRb9vnNT66doYvsPH7UT19avyc23F1JhcDBOkUPdRRkRZ2-vCVhxPF6qhU3hJCA22pcw-r~A7LIJyuo6nOeMhIDFFc~OW0JWACsuVKDMWqXguSZj7v7rbQCOVcng8bqy1q-r7g4BxxQMeq-8CIONYbv3dUBNkrktr9tfIJkFS7w4R9dIlPtTSVQCSo~~LK8ELedNKfpuDx762qBKiZHykoyVTMQ2vx-Ue2skLkFTPWrMyoSP6vS9Dbh-NxgkgpEzlr-lL2hkh0TRrw4P8UP6TDiK5qUPRRDNPWtgjd9kshywVKg73nB7~2VoCUpTOb-1gQ__",
+  //   // year: "2021",
+  //   // medium: "Watercolor",
+  //   dimensions: "16\" × 20\"",
+  //   // description: "A landscape inspired by autumn foliage and the changing seasons of New England.",
+  //   type: "pastel",
+  // },
 
   {
     id: "art-007",
@@ -204,17 +204,6 @@ export const artworks = [
     id: "art-007",
     title: "5",
     image: "https://media-hosting.imagekit.io/c74f00804b864b62/AT%20WORK%20(19).png?Expires=1839666794&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=24V3Ih4lAvqvd10AEzDgDcadZZWzC41vs4~4XxLmw8q~SCfSfVstEfRx311ZmvSnI47~kdHIFaolHhaseoLOBFwjs3N-cM-u8qkpptD2HIk2AmwUSF80nqLl~2qFaBd68ffxu00Uggo1RqQ3lvMYauokMDUemq~nZkMewwBVqRwRT6BzbH04D-ksdvEgX5wANzMN9XVar3O8GIC3a0y9icsRjs4LTTA7ViBcMyWEWHRWMg-ZanEu6Rs5CIhx5hBVlzXlgHv-xrzJPcdL76N-1EytXu0YBgBX~-VPcuwoDfwmRLlDvEKRx1mULTwSeLdEY20jHXrAibkfjHBjSLIPqg__",
-    // year: "2020",
-    // medium: "Oil on Canvas",
-    dimensions: "40\" × 60\"",
-    // description: "An impressionistic seascape capturing the movement and emotion of ocean waves.",
-    type: "pastel",
-  },
-
-  {
-    id: "art-007",
-    title: "6",
-    image: "https://media-hosting.imagekit.io/956c94637de140f2/AT%20WORK%20(20).png?Expires=1839667714&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=pWbjisYBtd2W-IKwx1oZD333y4jHaA1DLW7vLGJDUQQY9ApVw8A5-bQUnxmfwaXjj0VL82haP9-INintvbj7iN2yqECpIaFHu-t2Frt-PE4JETBO7e2OLft9twGD2csxQQwojhsPVpW-wd18qLufRFXrRnx~j5HQOqfyF7nmG0p9F9MeFMdWdrRSdDK41w8NmYO3Tfp4AYEqoJVJGEpNC58whqDnRS3WTgI-ENHKX1w7-f6unze3F5SRVJPMK8NzczBm4gIDTwV43OqeuAYYRm9capgKITUaPoMCKiz4RJWSYNmgPPrmkvpeihNAnmlPEbONnRVfa5mCUpoxUuMWsg__",
     // year: "2020",
     // medium: "Oil on Canvas",
     dimensions: "40\" × 60\"",
@@ -287,61 +276,50 @@ export const artworks = [
     // description: "An impressionistic seascape capturing the movement and emotion of ocean waves.",
     type: "pastel",
   },
-
   {
     id: "art-007",
-    title: "13",
-    image: "https://media-hosting.imagekit.io/6e314e96241c44e1/AT%20WORK%20(26).png?Expires=1839669168&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=GM0hxDwmZNVI4M8trFNdDqUh3~nE1qWYrlmj4xzrbWkHmQ1XTePSs9dsffchPQm5mnIh7k4hDGz~SWRImZHv9QK2OwkdC35YVglAWXUboGREPvOMjDtAeAWIeSB68s5X8RohMEaY2~qhLQ-pMu-57C-yL-fKyFLlcOsJf~ILkWQfcgnpUUOjKy1MfwWN1mgWp40DNXklsO6wr7d6WFP~OrGkXzYuOkIdAAbTn6sHJupviAa6ONJ9dCULtfjzg9MTDTBaEebzMJ53~9zmqZIz6MSQ1Wrj-FWtXf9Fq~JGc9WOgkMjgDVBq7ZTPyLGHe9ij-bpXZchn5a2BVDWJI98Uw__",
+    title: "6",
+    image: "https://media-hosting.imagekit.io/956c94637de140f2/AT%20WORK%20(20).png?Expires=1839667714&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=pWbjisYBtd2W-IKwx1oZD333y4jHaA1DLW7vLGJDUQQY9ApVw8A5-bQUnxmfwaXjj0VL82haP9-INintvbj7iN2yqECpIaFHu-t2Frt-PE4JETBO7e2OLft9twGD2csxQQwojhsPVpW-wd18qLufRFXrRnx~j5HQOqfyF7nmG0p9F9MeFMdWdrRSdDK41w8NmYO3Tfp4AYEqoJVJGEpNC58whqDnRS3WTgI-ENHKX1w7-f6unze3F5SRVJPMK8NzczBm4gIDTwV43OqeuAYYRm9capgKITUaPoMCKiz4RJWSYNmgPPrmkvpeihNAnmlPEbONnRVfa5mCUpoxUuMWsg__",
     // year: "2020",
     // medium: "Oil on Canvas",
     dimensions: "40\" × 60\"",
+    aspectRatio: "4/3",
     // description: "An impressionistic seascape capturing the movement and emotion of ocean waves.",
     type: "pastel",
   },
-
-  {
-    id: "art-007",
-    title: "14",
-    image: "https://media-hosting.imagekit.io/4ba233ae296f453c/AT%20WORK%20(27).png?Expires=1839669321&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=vTvpsRUfk0syDIDVhgBxGQdqI3LDWVhf-CGXFFcrqThwcBzbvI76lzacn2d0tJgveV6dghDa2kTQduANAfG19a1gD8igiqHxNRAkEPKTAzYC55t1XwaDu3HEVe5YroZNx2L0AvgwezMwRJXS8Xnn5jc1BZYcjc~EoPsliW3zKKKC6zXn8H52yLHTAVfBS2uizgeiWwDuEminB-04qUlGvcox6sLRjBclUOuowkFPACsufu3T2kUltLsYYfW-I0KmR1-4rmz36d6ElIZxy~YVrnpHJv1-OOhJI7SdPkJk1CDHKOe4-SnoufukoUnkPgCWMw074XGa6AcDI-F0hWGBLw__",
-    // year: "2020",
-    // medium: "Oil on Canvas",
-    dimensions: "40\" × 60\"",
-    // description: "An impressionistic seascape capturing the movement and emotion of ocean waves.",
-    type: "pastel",
-  },
-
 
 
   {
     id: "art-008",
     title: "Fragmented Reality",
-    image: "https://images.unsplash.com/photo-1573521193826-58c7dc2e13e3?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
+    image: "https://media-hosting.imagekit.io/93f05197f78d4d13/AT%20WORK%20(28).png?Expires=1839678449&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=Ulo1FqLzwJfKIWcThnUDpZidJTSz-iZKKAk5~N28Qx7jirRmY6arINtuRan3lg8VW3q9P6SIruNKMBIhr2YhKeLWQtZEHruIMGRczLUdfXo~ngEa8DJCpzYlOSlX5OweYUa4InrKjjzPgKrPEMuoC5DRU0RicRB-iLfPu-W8dh8jAMbLLf3~G17K67hG2uy09amyDMk8ZHYRbnyJkl7L5KjxouB4uQ4NCT5-IxNXX5ZZwl4JtQ1~PdhLQNX-xcmBhn5NH9Jq~JXGvBFXb8wQCSVYYD6SeeZKqkDaIr1ZmAm306Kr3vS2jBYek82asF6ds1Hwg2f6x51n7rgZU8KW5g__",
     // year: "2020",
     // medium: "Mixed Media Collage",
     dimensions: "20\" × 26\"",
+    aspectRatio: "4/3",
     // description: "A collage work exploring how memories and experiences shape our perception of reality.",
     type: "prioritized",
   },
-  {
-    id: "art-009",
-    title: "Inner Light",
-    image: "https://media-hosting.imagekit.io/853aa971fb4b4f81/AT%20WORK.png?Expires=1839587401&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=JJ8zpmfA1uNK3q5KA5tAkjcAZRhQd~88ESXznp1qffMf39goj9vlcGLvwsvh0FmELeRrFYQT-l2ahrBTBE20yB9Gw7wn1bU~-3lI-F2tLQJi2afDznwvn4XsjnCdItTJKd8T-lCI7RTONMqAEFjBroUrilvKgPcQsmbrNar2ZA25IJJeJxxA90pDE6m9DXlBmVATq6ZKqa5yTu7HPqaIPWUCGvtHUP05LBG-jABkHA5MLB4sLxY4SDb1eHJU5Uv-sjin7gb006E1EaXHrNsYA3FcOFU5LYE9Irj7UnfxsNCjPhSSmPFdLEvs9x0Cu0wL8xmP1VaUF~yWmoH77hQH9g__",
-    // year: "2019",
-    // medium: "Acrylic and Gold Leaf",
-    dimensions: "24\" × 36\"",
-    // description: "An abstract piece exploring spirituality and inner illumination through contrast and gilding.",
-    type: "prioritized",
-  },
-  {
-    id: "art-0010",
-    title: "Structural Rhythm",
-    image: "https://images.unsplash.com/photo-1558865869-c93693c0ccb3?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
-    // year: "2019",
-    // medium: "Charcoal and Pastel",
-    dimensions: "18\" × 24\"",
-    // description: "A study of architectural forms and their inherent rhythms and patterns.",
-    type: "pastel",
-  }
+  // {
+  //   id: "art-009",
+  //   title: "Inner Light",
+  //   image: "https://media-hosting.imagekit.io/853aa971fb4b4f81/AT%20WORK.png?Expires=1839587401&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=JJ8zpmfA1uNK3q5KA5tAkjcAZRhQd~88ESXznp1qffMf39goj9vlcGLvwsvh0FmELeRrFYQT-l2ahrBTBE20yB9Gw7wn1bU~-3lI-F2tLQJi2afDznwvn4XsjnCdItTJKd8T-lCI7RTONMqAEFjBroUrilvKgPcQsmbrNar2ZA25IJJeJxxA90pDE6m9DXlBmVATq6ZKqa5yTu7HPqaIPWUCGvtHUP05LBG-jABkHA5MLB4sLxY4SDb1eHJU5Uv-sjin7gb006E1EaXHrNsYA3FcOFU5LYE9Irj7UnfxsNCjPhSSmPFdLEvs9x0Cu0wL8xmP1VaUF~yWmoH77hQH9g__",
+  //   // year: "2019",
+  //   // medium: "Acrylic and Gold Leaf",
+  //   dimensions: "24\" × 36\"",
+  //   // description: "An abstract piece exploring spirituality and inner illumination through contrast and gilding.",
+  //   type: "prioritized",
+  // },
+  // {
+  //   id: "art-0010",
+  //   title: "Structural Rhythm",
+  //   image: "https://images.unsplash.com/photo-1558865869-c93693c0ccb3?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
+  //   year: "2019",
+  //   medium: "Charcoal and Pastel",
+  //   dimensions: "18\" × 24\"",
+  //   description: "A study of architectural forms and their inherent rhythms and patterns.",
+  //   type: "pastel",
+  // }
 ];
 
 export const getFeaturedArtwork = () => {
