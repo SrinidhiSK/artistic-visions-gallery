@@ -6,11 +6,11 @@ export type ArtworkProps = {
   id: string;
   title: string;
   image: string;
-  year: string;
-  medium: string;
+  // medium: string;
   dimensions?: string;
-  description?: string;
+  // description?: string;
   featured?: boolean;
+  type: string;
 };
 
 const ArtworkCard = ({ artwork }: { artwork: ArtworkProps }) => {
@@ -35,9 +35,9 @@ const ArtworkCard = ({ artwork }: { artwork: ArtworkProps }) => {
           <h3 className="text-white font-serif font-medium text-xl">
             {artwork.title}
           </h3>
-          <p className="text-white/90 text-sm mt-1">
-            {artwork.year} • {artwork.medium}
-          </p>
+          {/*<p className="text-white/90 text-sm mt-1">*/}
+          {/*  {artwork.year} • {artwork.medium}*/}
+          {/*</p>*/}
           
           <div className="flex items-center space-x-4 mt-4">
             <button 
