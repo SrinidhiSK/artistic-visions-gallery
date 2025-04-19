@@ -2,6 +2,7 @@
 import { ArrowRight } from "lucide-react";
 import { Link } from "react-router-dom";
 
+
 interface HeroProps {
   featuredArtwork: {
     title: string;
@@ -42,7 +43,7 @@ const Hero = ({ featuredArtwork }: HeroProps) => {
             {/*</Link>*/}
           </div>
         </div>
-        
+
         <div className="order-1 md:order-2 relative animate-scale-in">
           <div className="aspect-[4/5] rounded-lg overflow-hidden shadow-xl transform md:rotate-2 relative z-10">
             <img

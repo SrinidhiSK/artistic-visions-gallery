@@ -50,9 +50,12 @@ const Charcoal = () => {
             {/*<div className="bg-white/30 backdrop-blur-2xl rounded-2xl p-6 shadow-2xl border border-white/20">*/}
             {/*  <ArtworkGrid artworks={getCharcoalArtwork()} columns={3} />*/}
             {/*</div>*/}
-            <div className="bg-white/100 backdrop-blur-100xl rounded-2xl p-6 shadow-2xl border border-white/20">
+            <div
+                className="bg-white/100 backdrop-blur-200xl rounded-2xl p-6 shadow-2xl border border-white/20 w-full max-w-5xl mx-auto min-h-[1000px]"
+            >
               <ArtworkGrid artworks={getCharcoalArtwork()} columns={3} />
             </div>
+
 
 
             {/*<div className="bg-white/80 backdrop-blur-2xl rounded-2xl p-6 shadow-2xl border border-white/30">*/}

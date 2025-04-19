@@ -22,7 +22,7 @@ const ArtworkCard = ({ artwork }: { artwork: ArtworkProps }) => {
       onMouseEnter={() => setIsHovered(true)}
       onMouseLeave={() => setIsHovered(false)}
     >
-      <div className="aspect-[4/5] bg-gray-100 overflow-hidden">
+      <div className="aspect-[3/4] bg-gray-100 overflow-hidden">
         <img 
           src={artwork.image} 
           alt={artwork.title}
