@@ -20,6 +20,7 @@ export const artworks = [
     dimensions: "24\" × 30\"",
     // description: "A study of city architecture and its reflection in water, playing with light and perspective.",
     type: "charcoal",
+    featured: true,
   },
   {
     id: "art-002",
@@ -30,7 +31,7 @@ export const artworks = [
     dimensions: "18\" × 24\"",
     // description: "An abstract composition exploring emotional states through variations of blue tones and textures.",
     type: "charcoal",
-    featured: true,
+    // featured: true,
   },
 
   {

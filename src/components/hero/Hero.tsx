@@ -1,16 +1,16 @@
 
 import { ArrowRight } from "lucide-react";
 import { Link } from "react-router-dom";
+import RotatingFeaturedArtwork from "./RotatingFeaturedArtwork";
 
 interface HeroProps {
   featuredArtwork: {
     title: string;
     image: string;
-    year: string;
-    medium: string;
+    // year: string;
+    // medium: string;
   };
 }
-
 
 const Hero = ({ featuredArtwork }: HeroProps) => {
   return (
@@ -43,22 +43,25 @@ const Hero = ({ featuredArtwork }: HeroProps) => {
           </div>
         </div>
 
-        <div className="order-1 md:order-2 relative animate-scale-in">
-          <div className="aspect-[4/5] rounded-lg overflow-hidden shadow-xl transform md:rotate-2 relative z-10">
-            <img
-              src={featuredArtwork.image}
-              alt={featuredArtwork.title}
-              className="w-full h-full object-cover"
-            />
-          </div>
-          <div className="absolute z-0 bottom-6 right-6 rounded-lg bg-black/10 backdrop-blur-sm w-full h-full -rotate-3"></div>
+        {/*<div className="order-1 md:order-2 relative animate-scale-in">*/}
+        {/*  <div className="aspect-[4/5] rounded-lg overflow-hidden shadow-xl transform md:rotate-2 relative z-10">*/}
+        {/*    <img*/}
+        {/*      src={featuredArtwork.image}*/}
+        {/*      alt={featuredArtwork.title}*/}
+        {/*      className="w-full h-full object-cover"*/}
+        {/*    />*/}
+        {/*  </div>*/}
 
-          <div className="absolute bottom-8 left-8 bg-white/90 backdrop-blur-sm p-4 rounded shadow-md">
+        <RotatingFeaturedArtwork />
+
+          {/*<div className="absolute z-0 bottom-6 right-6 rounded-lg bg-black/10 backdrop-blur-sm w-full h-full -rotate-3"></div>*/}
+
+          <div className="absolute bottom-8 left-8 bg-white/10 backdrop-blur-sm p-4 rounded shadow-md">
             {/*<p className="font-serif text-xl">{featuredArtwork.title}</p>*/}
         {/*    /!*<p className="text-sm text-gray-600 mt-1">{featuredArtwork.year} • {featuredArtwork.medium}</p>*!/*/}
           </div>
         </div>
-      </div>
+      {/*</div>*/}
     </section>
   );
 };
