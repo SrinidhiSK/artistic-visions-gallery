@@ -31,7 +31,7 @@ export const artworks = [
     dimensions: "18\" × 24\"",
     // description: "An abstract composition exploring emotional states through variations of blue tones and textures.",
     type: "charcoal",
-    // featured: true,
+    featured: true,
   },
 
   {
@@ -189,6 +189,7 @@ export const artworks = [
     dimensions: "40\" × 60\"",
     // description: "An impressionistic seascape capturing the movement and emotion of ocean waves.",
     type: "pastel",
+    featured: true,
   },
 
   {

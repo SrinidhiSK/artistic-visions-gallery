@@ -24,8 +24,8 @@ const Index = () => {
         <Hero featuredArtwork={{
           title: featuredArtwork.title,
           image: featuredArtwork.image,
-          year: featuredArtwork.year || "",
-          medium: featuredArtwork.medium || ""
+          // year: featuredArtwork.year || "",
+          // medium: featuredArtwork.medium || ""
         }}/>
 
         {/*<section className="container mx-auto px-4 py-20">*/}
