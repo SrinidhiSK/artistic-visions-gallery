@@ -4,10 +4,10 @@ export const artworks = [
     id: "art-000",
     title: "Ethereal Dreams",
     image: "https://media-hosting.imagekit.io/5d59bb6905324234/AT%20WORK%20(16).png?Expires=1839663246&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=dJ-uiEY8O5djMqZIblhWYRb9vnNT66doYvsPH7UT19avyc23F1JhcDBOkUPdRRkRZ2-vCVhxPF6qhU3hJCA22pcw-r~A7LIJyuo6nOeMhIDFFc~OW0JWACsuVKDMWqXguSZj7v7rbQCOVcng8bqy1q-r7g4BxxQMeq-8CIONYbv3dUBNkrktr9tfIJkFS7w4R9dIlPtTSVQCSo~~LK8ELedNKfpuDx762qBKiZHykoyVTMQ2vx-Ue2skLkFTPWrMyoSP6vS9Dbh-NxgkgpEzlr-lL2hkh0TRrw4P8UP6TDiK5qUPRRDNPWtgjd9kshywVKg73nB7~2VoCUpTOb-1gQ__",
-    year: "2023",
-    medium: "Oil on Canvas",
+    // year: "2023",
+    // medium: "Oil on Canvas",
     dimensions: "36\" × 48\"",
-    description: "An exploration of dreamscapes and the subconscious mind through layered colors and organic forms.",
+    // description: "An exploration of dreamscapes and the subconscious mind through layered colors and organic forms.",
     featured: true,
     type: "pastel",
   },
@@ -30,6 +30,7 @@ export const artworks = [
     dimensions: "18\" × 24\"",
     // description: "An abstract composition exploring emotional states through variations of blue tones and textures.",
     type: "charcoal",
+    featured: true,
   },
 
   {
