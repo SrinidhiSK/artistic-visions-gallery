@@ -14,6 +14,7 @@ import {Package} from "lucide-react";
 import { useNavigate } from "react-router-dom";
 import Pastel from "@/pages/Pastel.tsx";
 import Prioritized from "@/pages/Prioritized.tsx";
+import SignIn from "./pages/signin.tsx";
 
 const queryClient = new QueryClient();
 
@@ -29,6 +30,8 @@ const App = () => (
           <Route path="/charcoal" element={<Charcoal />} />
           <Route path="/pastels" element={<Pastel/>} />
           <Route path="/prioritized" element={<Prioritized/>} />
+          <Route path="/signin" element={<SignIn/>} />
+
 
           {/*<Route path="/about" element={<AboutPage />} />*/}
           {/*<Route path="/contact" element={<ContactPage />} />*/}

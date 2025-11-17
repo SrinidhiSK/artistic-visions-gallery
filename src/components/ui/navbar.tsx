@@ -28,6 +28,7 @@ const Navbar = () => {
         <nav className="hidden md:flex items-center space-x-8">
           <NavLink to="/">Home</NavLink>
           <NavLink to="/charcoal">Gallery</NavLink>
+          <NavLink to="/signin">Sign in</NavLink>
           {/*<NavLink to="/about">About</NavLink>*/}
           {/*<NavLink to="/contact">Contact</NavLink>*/}
         </nav>
@@ -38,6 +39,8 @@ const Navbar = () => {
             <nav className="flex flex-col py-4">
               <MobileNavLink to="/" onClick={toggleMenu}>Home</MobileNavLink>
               <MobileNavLink to="/charcoal" onClick={toggleMenu}>Gallery</MobileNavLink>
+              <MobileNavLink to="/signin" onClick={toggleMenu}>sign in</MobileNavLink>
+
               {/*<MobileNavLink to="/about" onClick={toggleMenu}>About</MobileNavLink>*/}
               {/*<MobileNavLink to="/contact" onClick={toggleMenu}>Contact</MobileNavLink>*/}
             </nav>

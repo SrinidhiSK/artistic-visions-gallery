@@ -3,7 +3,7 @@ export const artworks = [
   {
     id: "art-000",
     title: "Ethereal Dreams",
-    image: "https://media-hosting.imagekit.io/5d59bb6905324234/AT%20WORK%20(16).png?Expires=1839663246&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=dJ-uiEY8O5djMqZIblhWYRb9vnNT66doYvsPH7UT19avyc23F1JhcDBOkUPdRRkRZ2-vCVhxPF6qhU3hJCA22pcw-r~A7LIJyuo6nOeMhIDFFc~OW0JWACsuVKDMWqXguSZj7v7rbQCOVcng8bqy1q-r7g4BxxQMeq-8CIONYbv3dUBNkrktr9tfIJkFS7w4R9dIlPtTSVQCSo~~LK8ELedNKfpuDx762qBKiZHykoyVTMQ2vx-Ue2skLkFTPWrMyoSP6vS9Dbh-NxgkgpEzlr-lL2hkh0TRrw4P8UP6TDiK5qUPRRDNPWtgjd9kshywVKg73nB7~2VoCUpTOb-1gQ__",
+    image: "https://firebasestorage.googleapis.com/v0/b/artgallery-3d9f5.firebasestorage.app/o/AT%20WORK%20(1).png?alt=media&token=32240ea8-6aff-49cb-aebe-84d2ccab55f8",
     // year: "2023",
     // medium: "Oil on Canvas",
     dimensions: "36\" × 48\"",
@@ -14,7 +14,7 @@ export const artworks = [
   {
     id: "art-001",
     title: "श्रीमद् हनुमान",
-    image: "https://media-hosting.imagekit.io/caaaffe2c7f94896/AT%20WORK%20(2).png?Expires=1839643714&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=zRbRulwyXWVYVpexNE16JxIYUULIx~203dgeo3ywdyTMmFPGN1JfZxZrjGEC1gAnNK7sSpX0xIWO7IbI4CJRfQ7p-sH9EPcwtIdwQHhimbL20v6kqs49YF-adHTg2cRGgf~cc-VrrnvVyR2ASDyQbX~JS1Cb0O94zB9lkJiv3CmxECNOhoIqhxLQBJ~BB-1wijqRVUrpd5AdNDA2Ka5x20VmF5onwqgOvT0snZ7lpMdDmm1peySpLbLiQzI4vd9NC-Cuhmm6JPCfnVf6RjslhbW8OZ0infRMecQHVynXUDuujxZo29TP64Gt39Gzy3Fg1zyq0ddZy~Bak56h9vwp1A__",
+    image: "https://firebasestorage.googleapis.com/v0/b/artgallery-3d9f5.firebasestorage.app/o/AT%20WORK%20(2).png?alt=media&token=c24237b1-5c16-4064-a3ab-15e4bb7fef4b",
     // year: "2022",
     // medium: "Acrylic on Panel",
     dimensions: "24\" × 30\"",
@@ -25,7 +25,7 @@ export const artworks = [
   {
     id: "art-002",
     title: "Serenity in Blue",
-    image: "https://media-hosting.imagekit.io/f91b36e440684ace/AT%20WORK%20(1).png?Expires=1839594532&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=s3yzoyqUWISQ5Ng0TL60u4zh-UAsJuhC2xBxN0GA6KUkXo0eWMMB9lhvTo7iJSiZN1hMY5L01G~nQNAtyNDsJumRk4WVCF1HqvdqNrB2pCnsmHyiwif3PZoaIGlQGjsbPTOlMQsmny6MKKVqtGvv9-XHTcvXUsF-D2QLipjs97x5VDV5l0kbY5zunuY8qUKomgr7BGhRmHd1tPAKgSzvQqQQQDjJztP8uG7IuF1uHTmMnb~ymzpYL1LWC9hrdEXnYBq3RMWJM2T7ZejSiZUviI98GM4pWGeUYH04XvGXpfEskL2u0ZSFQAD~awIHkg8hiav8HlLcheu4UyZip2QETw__",
+    image: "https://firebasestorage.googleapis.com/v0/b/artgallery-3d9f5.firebasestorage.app/o/AT%20WORK%20(1).png?alt=media&token=32240ea8-6aff-49cb-aebe-84d2ccab55f8",
     // year: "2022",
     // medium: "Mixed Media",
     dimensions: "18\" × 24\"",
@@ -37,7 +37,7 @@ export const artworks = [
   {
     id: "art-001",
     title: "ॐ नमः शिवाय ",
-    image: "https://media-hosting.imagekit.io/0eb3e5db28414f6c/AT%20WORK%20(4).png?Expires=1839648042&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=PRJ8LM5Th2io5Gg23GPDvzLG8f9aMT00dXAMV6Yk5Dx-L69GjPfwe7iAsFjm~2Hn~rrTYcM3~2iysD8VcmPZqH1b65BmTVWGrodZmH5dAwAW7pOCQ7onGEKIvBjU2ejgna9yfbSSSf6eJ46rSTUbsyV8gOmecme7zcxSUFM35rEDgm5BppaR1pFIzU18ahHwoe3OaVJ8lPDS2a-8Ayh-RaviyEnYG~MBu4QeDSzWGegWQPPFZQDfddaPj6qe4oJPpndDwmvzTdWbrthGKS-CmybRYunqMWmObGi14EEhU0pOJ~Q2MIdw5jTsR0E7BKAZOZaKX1jOIVILoK5O9BqaSw__",
+    image: "https://firebasestorage.googleapis.com/v0/b/artgallery-3d9f5.firebasestorage.app/o/AT%20WORK%20(4).png?alt=media&token=807cdb07-7312-45f0-900c-6bc66809e079",
     // year: "2021",
     // medium: "Digital",
     dimensions: "24\" × 24\"",
@@ -48,7 +48,7 @@ export const artworks = [
   {
     id: "art-002",
     title: "Stellar Fury: Explosions in the Cosmos ",
-    image: "https://media-hosting.imagekit.io/f9ea089f3898442c/AT%20WORK%20(5).png?Expires=1839648498&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=Ohod2wmc66pLAzy9UGL9d-eMinFwRkwMihkEHt9x2E~cSjEeiIsuoU7vxT9YESXy38MY4hqrFiH8fPyUEtU~6vkeMZn2D-XRfiInJfTfQBCHiPkocqgmAf2u5-849bmLUMJD4BYfwZCEOqiJM~q9jFySB7Zb64Q2MKckE7YSPUVfx3OWSlpjuVFCaMlDopM4~jq1KEsGEEl5BewuXtDUy4pltqfCcT7VRhWvMAJYu~iW8pNF552OlpgZ6GKA5fHmtRwlppWKkaqbNKJLCLQmUF90JOG7E9YMtXAAA-BJiCxlkgk-jn5NrM1Gxc8qFMWQePYd24ItrYRjbWWzSBrh6A__",
+    image: "https://firebasestorage.googleapis.com/v0/b/artgallery-3d9f5.firebasestorage.app/o/AT%20WORK%20(5).png?alt=media&token=5cdf10f7-88bf-45de-aab6-57252c2e4e3c",
     // year: "2021",
     // medium: "Digital",
     dimensions: "24\" × 24\"",
@@ -59,7 +59,7 @@ export const artworks = [
   {
     id: "art-001",
     title: "श्री गणपतये",
-    image: "https://media-hosting.imagekit.io/f14ed2ec9dc14f5f/AT%20WORK%20(6).png?Expires=1839649395&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=2x8aN1Rd-bBMDzOfaCQC55YXCoe~Q8C0vOOcgRIHmpOQBplpTEM3~w-HAVUILONnprvLPrJEmpPBumb3~4Fkz9Dg3jhs9MyFDzAoCmB12pn0eDUi0~m7Kb3Jg9EPsagqDjhg29xGCX17G24eg3MV1a5VNRdhEy5ZbD7PiR4MWxUdayV24-46nkTWNGPUyJvXOBRLW1~nE9DLvryQ1Lx4XYWdtXKlCZdNvdFPxQItuXB8vDBEzCnNCYBoYnl2SiCzjWz4KcPZk5qKZfmx3n792gZLr-JPm3v9zH133hmaXZfgW9lAtjdMQm9iPoA3fHAe5aZDUl-Phg75r~kiAByQSw__",
+    image: "https://firebasestorage.googleapis.com/v0/b/artgallery-3d9f5.firebasestorage.app/o/AT%20WORK%20(6).png?alt=media&token=28ccdbf3-5a2f-4977-8101-a7be93f963f5",
     // year: "2021",
     // medium: "Digital",
     dimensions: "24\" × 24\"",
@@ -70,7 +70,7 @@ export const artworks = [
   {
     id: "art-002",
     title: "Whispers in the Dark",
-    image: "https://media-hosting.imagekit.io/a6038e98758748f6/AT%20WORK%20(7).png?Expires=1839652764&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=mC6hw6RDu8QBkK3kRvv7SNyQ8WnQydm0IpSbYyIbNvo6aAxvMLX0uQ2IjU8UtdwJy3485F20QsYhPDzvJfvYc8-ssCCZPjQHYJc~xL1ZXKuXbiXiOwtz6Fkx5qJ-EVvKWoZJ8vWokGbhMoEIbjwqV6pG-GhPsx9b5lI-25so4Pm2PpXUY7nL0sc1etjxsN8AcI03Nv2dNuyXZlVNaimxluHUlaElUytxIOBUJnnTSQw8D~TIAcQO1JpLX6eThs~nCveX08twgR38mLYXyP2lg2hkecrj9iKqooe9PnrKgbKICfQdt8pIkguOR4Qum8zbfpJlSsThQ72L368uc19w2w__",
+    image: "https://firebasestorage.googleapis.com/v0/b/artgallery-3d9f5.firebasestorage.app/o/AT%20WORK%20(7).png?alt=media&token=53274e36-a85e-4f24-b3bd-d1534b026a12",
     // year: "2021",
     // medium: "Digital",
     dimensions: "24\" × 24\"",
@@ -81,7 +81,7 @@ export const artworks = [
   {
     id: "art-001",
     title: "Shiva: The Cosmic Dancer ",
-    image: "https://media-hosting.imagekit.io/fd082110ef7c43a3/AT%20WORK%20(8).png?Expires=1839652971&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=U25MGjDgpgkrBxN6yzvCzOUp-5vnfNpW9EMXwANKC4gWC2ko0Fm2jMknTBQrjcD98hHgbdb3OU1GEEXI5FTIGkUjeS4y9MnypqtM2px23qfv59VoPrSPwaCa6UeGg8q6lpiY-ZaqLvEVcZ247ZEOCPsj9-lWOdKzOPl51qZC16dPsBvJRqxzS~l8PzaudkwJkh8y1f2gz~d2LB43D2LlBovzDqCy9ryGrKRA8LRS6TnXdaP9mNe8Gzc9BS20qgO2RzowPN-GC5pdeLFBOyz6w053wqelsrERSbYEx9IdcWkJ-3I94aNtOODf5QLPXxolyOcaqlMgEMnJi5igL3fsww__",
+    image: "https://firebasestorage.googleapis.com/v0/b/artgallery-3d9f5.firebasestorage.app/o/AT%20WORK%20(8).png?alt=media&token=7d5170db-e45b-48a4-aaa8-6a785a94e159",
     // year: "2021",
     // medium: "Digital",
     dimensions: "24\" × 24\"",
@@ -92,7 +92,7 @@ export const artworks = [
   {
     id: "art-002",
     title: "Strength in Shadows",
-    image: "https://media-hosting.imagekit.io/fd2f368f3fde4ecf/AT%20WORK%20(9).png?Expires=1839653381&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=yoJkmCbOXy~FgVNT0DAeKaL0o5o4Lcr1ZRr-Lpk1DKUthSJchi10Sf4Bybj06oCICdEVClxcIc6P7ZEo7BuZXlRcERLihWKPLxhjIL5c0ZfaCtz2GHxdJOqb7ywakFDK~-pCZjPlO-aCSNCcp8FUwy2aZmuQNcwA7d9ZcfjDnazgK~5ZfIwz7MxrkazbRH1Rf8INJV3SK1OiZEHLcc0-hooTOMV8zEsPBBfeTX7Dg8TwyrQYPUHlTgQXAWkiCaj1~jmq9vA9UUEnfZpP-qpdn7QZzgOkLqRaDoL8y8h2cHik8AspEzquYyXAanrRZMauK1KL2iEqzEIjsVu0C~7NcA__",
+    image: "https://firebasestorage.googleapis.com/v0/b/artgallery-3d9f5.firebasestorage.app/o/AT%20WORK%20(9).png?alt=media&token=aa9fb50c-fd46-4e9b-8baa-3c3766463353",
     // year: "2021",
     // medium: "Digital",
     dimensions: "24\" × 24\"",
@@ -103,7 +103,7 @@ export const artworks = [
   {
     id: "art-001",
     title: "Reflections in Smoke",
-    image: "https://media-hosting.imagekit.io/39bceab0de7f4a0b/AT%20WORK%20(10).png?Expires=1839653609&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=HQBpFysupvoTYEV9wjhClwNoxBWDxQ70dbcFf8824xz3eseaOd4TNNi~OomnMumTt6oAT3oIERHZzT587zTtdHWQTC-eErrafGqvJyGcFSBv7tjcnClOqnE3asuzAnxL7PyMYpjz-AHq34cJpVDa0U-1Qggdc-6PCeLqCtzZ2J1jXHsQ-ZyEOOt9CBUKvUdO4VKaR-yCo1axJcI02kW1H4BX6pCijqyvC9R0YsCAvzdZ~PKS6BgchWH~-qxeUbhM0Ew8w0oMsce9wb9-X4oNkklP9DRX-Alj33EIoBraKpFShPhL-X~AFsy~wqWdehz7BQo0ueSvNgyYbbHVPjdtAQ__",
+    image: "https://firebasestorage.googleapis.com/v0/b/artgallery-3d9f5.firebasestorage.app/o/AT%20WORK%20(10).png?alt=media&token=ea70c2f7-333d-4426-9178-4adc62c09f1e",
     // year: "2021",
     // medium: "Digital",
     dimensions: "24\" × 24\"",
@@ -114,7 +114,7 @@ export const artworks = [
   {
     id: "art-002",
     title: "Embrace of the Unknown",
-    image: "https://media-hosting.imagekit.io/dffc619fc8f74ee6/AT%20WORK%20(11).png?Expires=1839653814&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=JObeqWxYglZmiMaaa8BXLHvJeds1kdS8IY8VP7tjuLV7OUMwCqil5auH~90zK7cMcsCHT5I9T0SZfCj3Ss7WRoxUU8g41KWHFJpOs3mzCcoU5YgZMvy1mtKPeOfxTt2YZQIXA19HsVMtRVz-meH6inbkMrtcCDkOytCK-vbpEESIJyGRfxBqGp3PVavdo2lsmBK-yAq7i-5KxsQhX3kEqTiXB6IUBHXVTSWQLz3ydoOKBIpduDd7FFoNkty12afg-fc-TWO6Pt7QwZj9T1q63Ge7o-aYQMe7UtqgFcjpGklZ3j~K4lHRygCmqmQK2fi8d27-Nq3Q-C3L5nKKccuaxQ__",
+    image: "https://firebasestorage.googleapis.com/v0/b/artgallery-3d9f5.firebasestorage.app/o/AT%20WORK%20(11).png?alt=media&token=04fd4f46-3741-4f5f-997c-929fbedf0979",
     // year: "2021",
     // medium: "Digital",
     dimensions: "24\" × 24\"",
@@ -125,7 +125,7 @@ export const artworks = [
   {
     id: "art-001",
     title: "Duality of Existence",
-    image: "https://media-hosting.imagekit.io/33047cd3013b492e/AT%20WORK%20(12).png?Expires=1839654751&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=bLAX5ugx0GG2wHz5z4xH71YcJuarD0wPFBipmJyJkIvgTzZT4bYYKw1if1Ans5wo2C~sfUfwp8mt-t1CX9Y4XTIqEqXaChdT8l~hUNgpYwJFRBNRfNvwUahq7KjMdXC1V166bNf~VLfqPz16Edw5G83F6bPx6VUtZhgZ27CiEDuOmHdLoy1C-tYX1tzZ2qUbYTtVpOgaBV~H9qVUPX2To-xoVqnSpE3e8FfX6OOi7HrCZwlDpFvDYJDUzNezx8GIW6VbXOjd4SllOPq~QxPmwnCjbpSofdVFwtup8fAXszgLOjBx8jFma3LkdFoU4mJj6r2yPNDJgNFz8shtoY9J1Q__",
+    image: "https://firebasestorage.googleapis.com/v0/b/artgallery-3d9f5.firebasestorage.app/o/AT%20WORK%20(12).png?alt=media&token=dfde6506-c31c-47ae-8c35-772f94020500",
     // year: "2021",
     // medium: "Digital",
     dimensions: "24\" × 24\"",
@@ -136,7 +136,7 @@ export const artworks = [
   {
     id: "art-002",
     title: "Solitude in the Rain",
-    image: "https://media-hosting.imagekit.io/28efcf9aa8e74bd1/AT%20WORK%20(13).png?Expires=1839655075&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=D~8KUkr9YzqV1gC6yWDSr6Sy447cnll8XZXhRoplqUla5eH6ix2eijxrE0O2oghJa9vFRra4ZwCw0XQR-dAMN8VzzC4pTxYBrBoZhl1uyqYaXwTlCklzOfJQV8voqKjxjONRmaCkfFYRfAdST1XFBohIbgs2wgCTMeS~mwqtAGC8YjT2~cY~mWOtDRIAwpOumRiFZ-9oPY9GOaBjtPt5DuVRWCp2TIy61ShiC-WSyIoanc15VxSIBFupu9ReRwPiZC6rrTfvulIZZrtySwPEYiVOB2Jrp4xnI5DtewaO3N5v2n023v-~S7OSxyJE5EtvM3zsoyIOCZFgz2hgNhQ6vA__",
+    image: "https://firebasestorage.googleapis.com/v0/b/artgallery-3d9f5.firebasestorage.app/o/AT%20WORK%20(13).png?alt=media&token=b5281679-8901-46f6-beee-5ed019b6c05f",
     // year: "2021",
     // medium: "Digital",
     dimensions: "24\" × 24\"",
@@ -147,7 +147,7 @@ export const artworks = [
   {
     id: "art-001",
     title: "Whispers in Silence",
-    image: "https://media-hosting.imagekit.io/4252660af85a4bb7/AT%20WORK%20(14).png?Expires=1839655250&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=juk5VLBjWaOIW97Vl9tkGVPCjzQyvZIMKaVcIm5O-YV3zEXsiyMJ2pbTSSJ8doHw0OB0Hv9-35jziqSl8Io-AGWJhjydxWNNaRAslIQ-Zz2wZZDc1RbXYOv6wLMWZZdJAniYzWs1NFyzy6ekJHF-tXbqDaJ3pJ6w7DzI8pHj8XKtm-FeGNiZPtFR~T0ZLRl-8zw2bRbiYcQrADuxxrKOxYe2Fnz75gDM22mgEChbC8FVjG0p4RukMwdUSUY1VZi6zH42~tXNxZa6KHUEW-nul0quxXN2bTq5Z2CBYOH4OVq~W3su86fsLhprOnvehUL0Z1otPYNE9dnTMJZ2BsQ78g__",
+    image: "https://firebasestorage.googleapis.com/v0/b/artgallery-3d9f5.firebasestorage.app/o/AT%20WORK%20(14).png?alt=media&token=113b62d9-3168-4ee5-8177-cb25984e0dd6",
     // year: "2021",
     // medium: "Digital",
     dimensions: "24\" × 24\"",
@@ -158,7 +158,7 @@ export const artworks = [
   {
     id: "art-002",
     title: "Symphony of Dots",
-    image: "https://media-hosting.imagekit.io/516c3a6fea43439a/AT%20WORK%20(15).png?Expires=1839655383&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=AavLsPh3IteknlNFP7yu4jcCwO01vYu3StNtG3biCYx77YTcd2vLUTkm3D6am69FFkQzNFBFyH79RzAt~x2CMUItA6C2jVgnRKEnprfGDvQbkZEgV49aygA1Ly7DV4WDRTsKPnA0WqIh7b4oK1gQDrDt60M9mlmgezBXe~yOmTqC8fO6Lu8N1fbTSJ~z1yy93SJDEDpKXtp6TrFWZTJjrQPZrnPNqSPx-yFbkxI0kQbx94h~fl5p1p-rgMEEJh91DVL~kpKyZ01Q14jUMvR5ya2UDX~shsnN7PcPBkGJqM-yxWMMLopNtIZ71IutucYuIDluLe6Rg0oZpLmQSBkCqg__",
+    image: "https://firebasestorage.googleapis.com/v0/b/artgallery-3d9f5.firebasestorage.app/o/AT%20WORK%20(15).png?alt=media&token=bf1c4386-309a-41a6-a99b-9ed015f9ae9f",
     // year: "2021",
     // medium: "Digital",
     dimensions: "24\" × 24\"",
@@ -183,7 +183,7 @@ export const artworks = [
   {
     id: "art-007",
     title: "2 ",
-    image: "https://media-hosting.imagekit.io/f15ae2232c6346b7/AT%20WORK%20(17).png?Expires=1839663473&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=ZTCnkhvKStZocZGp81ir~~GEziUUhBBF963ZAUwrdcYGLQq46iBBr0AOFw64b1W06PSeZXYmLMJkjxhLC7r8t--TVm-8USp4UL7cxBvLSnJaMwXPuxSN-udxNI3yuIB4ujNzG1fB3QIbIkma515-eeNdERwnWhLSEUwXBfJEh9ntfXWADBoynWpDKtH65uK0VWNZByP9tR5gj5ORnHsvBruIy-AHRidGyFCQIcqk65A~Lm2MuQi6jiqivPQvEoZYXXtXImb0EbZELfeYBrGXFYDUxCltKVqbSYQAEMDBn00qwseZp4O6NNtKooPEEGEoYZylEgCb4~TdyiFqfCPZYA__",
+    image: "https://firebasestorage.googleapis.com/v0/b/artgallery-3d9f5.firebasestorage.app/o/AT%20WORK.png?alt=media&token=8b9d9de5-bbb3-440a-b1d0-88d2678e5389",
     // year: "2020",
     // medium: "Oil on Canvas",
     dimensions: "40\" × 60\"",

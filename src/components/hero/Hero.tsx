@@ -56,10 +56,10 @@ const Hero = ({ featuredArtwork }: HeroProps) => {
 
           {/*<div className="absolute z-0 bottom-6 right-6 rounded-lg bg-black/10 backdrop-blur-sm w-full h-full -rotate-3"></div>*/}
 
-          <div className="absolute bottom-8 left-8 bg-white/10 backdrop-blur-sm p-4 rounded shadow-md">
-            {/*<p className="font-serif text-xl">{featuredArtwork.title}</p>*/}
-        {/*    /!*<p className="text-sm text-gray-600 mt-1">{featuredArtwork.year} • {featuredArtwork.medium}</p>*!/*/}
-          </div>
+        {/*  <div className="absolute bottom-8 left-8 bg-black/30 backdrop-blur-sm p-4 rounded shadow-md">*/}
+        {/*    /!*<p className="font-serif text-xl">{featuredArtwork.title}</p>*!/*/}
+        {/*/!*    /!*<p className="text-sm text-gray-600 mt-1">{featuredArtwork.year} • {featuredArtwork.medium}</p>*!/*!/*/}
+        {/*  </div>*/}
         </div>
       {/*</div>*/}
     </section>
